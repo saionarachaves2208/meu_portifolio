@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio — Saionara</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bg-light shadow-sm">
+  <nav class="container navbar navbar-expand-md">
+    <a class="navbar-brand fw-bold" href="#inicio">Saionara Chaves dos Santos</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="menu" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gostos">O que Gosto</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- Início -->
+  <section id="inicio" class="text-center p-5 bg-light">
+    <h1>Oi, eu sou <span class="text-primary">Saionara</span> 👋</h1>
+    <p>Estudante | Persistente | Apaixonada por aprender</p>
+    <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+  </section>
+
+  <!-- Sobre Mim -->
+  <section id="sobre" class="container py-5">
+    <h2>Sobre Mim</h2>
+    <p>Tenho 17 anos, sou curiosa e adoro aprender coisas novas. Gosto de tecnologia, mas também de arte, música e filmes.  
+    Meu objetivo é crescer pessoalmente e profissionalmente, sem perder minha essência.</p>
+  </section>
+
+  <!-- Gostos -->
+  <section id="gostos" class="bg-light py-5">
+    <div class="container">
+      <h2>O que eu gosto 🎨</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <h5>Música</h5>
+          <p>Escuto Raps e funks conscientes quase todo dia, música me inspira.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h5>Filmes & Séries</h5>
+        <p>Amo assistir filmes de Ação e Comédia, os que tem participação dos atores "Dwayne Johnson"(conhecido também como The Rock) e o "Adam Sandler" são meus preferidos. Já as séries eu só tenho duas que gosto que é "Riverdale" e "Sobrenatural".</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h5>Hobbies</h5>
+          <p>Desenhar, escrever, jogar, sair com amigos — tudo que me conecta comigo mesmo(a).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="container py-5">
+    <h2>Meus Projetos 💻</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/projeto1.png" class="card-img-top" alt="Projeto em Grupo">
+          <div class="card-body">
+            <h5>Projeto em Grupo</h5>
+            <p>Página de produto inovador feita em equipe.</p>
+            <a href="https://seuusuario.github.io/projeto1" class="btn btn-primary" target="_blank">Ver Online</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/portfolio.png" class="card-img-top" alt="Portfólio">
+          <div class="card-body">
+            <h5>Este Portfólio</h5>
+            <p>Um site sobre mim, meus gostos e meus projetos.</p>
+            <a href="https://seuusuario.github.io/portfolio" class="btn btn-primary" target="_blank">Ver Online</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-light py-5">
+    <div class="container">
+      <h2>Fale Comigo 📩</h2>
+      <form id="form">
+        <input type="text" class="form-control mb-2" placeholder="Nome" required>
+        <input type="email" class="form-control mb-2" placeholder="E-mail" required>
+        <textarea class="form-control mb-2" placeholder="Mensagem" required></textarea>
+        <button class="btn btn-success">Enviar</button>
+      </form>
+      <div id="status" class="mt-2"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="text-center text-white bg-dark p-3">
+  © Saionara Chaves dos Santos <span id="ano"></span> | Feito com 💙
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
